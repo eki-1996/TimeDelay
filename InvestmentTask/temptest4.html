@@ -1,0 +1,12 @@
+{{ block content }}
+
+    <p>Just test</p>
+    <div>
+        <button type="button" id="stopButton">stop录制</button>
+        <p></p>
+        <a id="download-video" download="{{ download_name }}">Download Video</a>
+    </div>
+    <script src="{{ static 'global/delete_recorded_DB.js' }}"></script>
+
+    {{ next_button }}
+{{ endblock }}

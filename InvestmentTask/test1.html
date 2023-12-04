@@ -1,0 +1,25 @@
+{{ block title }}
+    練習ページ
+{{ endblock }}
+
+{{ block content }}
+    <div>
+        <p>test</p>
+    </div>
+
+    <!-- <div>
+        <video id="video" width="1920" height="1080"></video>
+        <canvas id="canvas" width="1920" height="1080"></canvas>
+    </div> -->
+
+    <!-- <div>
+        <button type="button" id="stopButton">stop录制</button>
+        <p></p>
+        <a id="download-video" download="test.webm">Download Video</a>
+        <p></p>
+    </div> -->
+    <script src="{{ static 'global/record_video.js' }}"></script>
+
+    {{ next_button }}
+
+{{ endblock }}  
